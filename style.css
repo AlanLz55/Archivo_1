@@ -1,0 +1,162 @@
+html{
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.Buttons{
+    width: 500px;
+    margin: 0 auto;
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* Inicio fila 1 */
+.button_list{
+    display: flex;
+    grid-template-columns:repeat(5, 1fr);
+    list-style: none;
+    gap: 30px;
+}
+.colors{
+    width: 80px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    background-color:transparent;
+    content-visibility: hidden;
+    transition: filter, transform 500ms ease;
+}
+.colors:nth-child(2):hover{
+    background-color:rgb(206, 215, 224);
+}
+.colors:nth-child(3):hover{
+    background-color:rgb(63, 16, 16);
+    color: white;
+}
+.colors:nth-child(4):hover{
+    background-color:black;
+    color: white;
+}
+.colors:nth-child(5):hover{
+    text-decoration: underline;
+}
+.colors:hover{
+    content-visibility: visible;
+    transform: scale(1.1);
+    transition: filter, transform 500ms ease;
+}
+/* Inicio fila 2 y 3 */
+.button_list2{
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    list-style: none;
+    gap: 30px;
+}
+.letters{
+    width: 80px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    background-color:transparent;
+    content-visibility: hidden;
+    transition: filter, transform 500ms ease;
+}
+.letters:nth-child(1):hover{
+    background-color: #04d1b2;
+    color: white;
+}
+.letters:nth-child(2):hover{
+    background-color: #3173dc;
+    color: white;
+}
+.letters:nth-child(3):hover{
+    background-color: #3298dc;
+    color: white;
+}
+.letters:nth-child(4):hover{
+    background-color: #49c774;
+    color: white;
+}
+.letters:nth-child(5):hover{
+    background-color: #ffdd57;
+}
+.letters:nth-child(6):hover{
+    background-color: #f14667;
+    color: white;
+}
+.letters:nth-child(7):hover{
+    background-color: #ebfffc;
+    color: #04d1b2;
+}
+.letters:nth-child(8):hover{
+    background-color: #eef3fc;
+    color: #3173dc;
+}
+.letters:nth-child(9):hover{
+    background-color: #edf6fc;
+    color: #3298dc;
+}
+.letters:nth-child(10):hover{
+    background-color: #effaf2;
+    color: #49c774;
+}
+.letters:nth-child(11):hover{
+    background-color: #fffbec;
+    color: #ffdd57;
+}
+.letters:nth-child(12):hover{
+    background-color: #feecf0;
+    color: #f14667;
+}
+.letters:hover{
+    content-visibility: visible;
+    transform: scale(1.1);
+    transition: filter, transform 500ms ease;
+}
+/* Inicio Fila 4 */
+.button_list3{
+    display: flex;
+    grid-template-columns:repeat(5, 1fr);
+    list-style: none;
+    gap: 30px;
+}
+.sizes{
+    width: 80px;
+    height: 50px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+    align-items: center;
+    background-color:transparent;
+    content-visibility: hidden;
+    transition: filter, transform 500ms ease;
+}
+.sizes:nth-child(1):hover{
+    transform: scale(0.9);
+}
+.sizes:nth-child(3):hover{
+    transform: scale(1.2);
+}
+.sizes:nth-child(4):hover{
+    transform: scale(1.3);
+}
+.sizes:nth-child(5):hover{
+    transform: scale(1.4);
+}
+
+.sizes:hover{
+    content-visibility: visible;
+    transform: scale(1.1);
+    transition: filter, transform 500ms ease;
+}
